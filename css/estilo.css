@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background: rgb(53, 255, 238);
+    padding: 70px;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s
+}
+
+.navbar a:hover{
+    background: rgb(53, 255, 238);
+    color: black;
+    font-weight: bold;
+}
+
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    flex: 48%;
+    background: rgb(240, 240, 240);
+    height: 300px;
+    width: 100px;
+    margin: 1%;
+}
+
+.card:hover{
+    background: rgb(221, 221, 221);
+}
